@@ -20,7 +20,9 @@ Please cite:
 ## Prepare the Code-Switched Data
 
 1. Prepare the query and label data (e.g. `raw_data/Tatoeba.de-en.en` and `raw_data/Tatoeba.de-en.de`)
+
 Both the query and label files should contain a series of sentences. One sentence per line.
+
 Example:
 `raw_data/Tatoeba.de-en.en`:
 ```
@@ -39,7 +41,11 @@ Heute ist der 18. Juni und das ist der Geburtstag von Muiriel !
 ```
 
 2. Prepare the dictionary data (e.g. `raw_data/en-de.txt` and `raw_data/de-en.txt`)
-The dictionary data should conform the format of [MUSE](https://github.com/facebookresearch/MUSE)
+
+The dictionary data should conform the format of [MUSE](https://github.com/facebookresearch/MUSE).
+
+You can directly download the dictionary from [MUSE](https://github.com/facebookresearch/MUSE), or prepare your own dictionary. For example, you may also prepare a dictionary using [ConceptNet](https://github.com/commonsense/conceptnet5/).
+
 Example:
 `raw_data/en-de.txt`:
 ```

@@ -19,6 +19,43 @@ Please cite:
 
 ## Prepare the Code-Switched Data
 
+1. Prepare the query and label data (e.g. `raw_data/Tatoeba.de-en.en` and `raw_data/Tatoeba.de-en.de`)
+Both the query and label files should contain a series of sentences. One sentence per line.
+Example:
+`raw_data/Tatoeba.de-en.en`:
+```
+Let 's try something .
+What is it ?
+Today is June 18th and it is Muiriel 's birthday !
+...
+```
+
+`raw_data/Tatoeba.de-en.de`:
+```
+Lass uns etwas versuchen !
+Was ist das ?
+Heute ist der 18. Juni und das ist der Geburtstag von Muiriel !
+...
+```
+
+2. Prepare the dictionary data (e.g. `raw_data/en-de.txt` and `raw_data/de-en.txt`)
+The dictionary data should conform the format of [MUSE](https://github.com/facebookresearch/MUSE)
+Example:
+`raw_data/en-de.txt`:
+```
+the die
+the der
+the dem
+the den
+the das
+and sowie
+and und
+was war
+...
+```
+
+3. Run the Python script `codemix.py`
+
 ## Continual Pre-Training
 
 1. Download the pre-trained language model from huggingface.

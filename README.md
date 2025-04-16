@@ -71,3 +71,11 @@ was war
 
 1. Run the script `train.sh` in the directory `ft` to train the model.
 2. Run the script `predict.sh` to obtain the vector representation of the test query and label files.
+
+## Evaluation
+
+1. Run the script `eval.py` to evaluate the experimental results:
+```
+python eval.py ${PREDICTED_QUERY_EMBEDDINGS} ${PREDICTED_LABEL_EMBEDDINGS} ${TOP_K}
+```
+where `${PREDICTED_QUERY_EMBEDDINGS}` and `${PREDICTED_LABEL_EMBEDDINGS}` are the filenames of the predicted vector representation of the test query and label files, resepctively. We evaluate the top-k accuracy where the value of k is defined as `${TOP_K}`.

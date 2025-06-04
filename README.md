@@ -6,14 +6,13 @@ Please cite:
   author       = {Mieradilijiang Maimaiti and
                   Yuanhang Zheng and
                   Ji Zhang and
-                  Fei Huang and
                   Yue Zhang and
                   Wenpei Luo and
                   Kaiyu Huang},
   title        = {Improving Cross-lingual Representation for Semantic Retrieval with
                   Code-switching},
-  journal      = {arXiv preprint arXiv: 2403.01364},
-  year         = {2024},
+  journal      = {Knowledge-Based System},
+  year         = {2025},
 }
 ```
 

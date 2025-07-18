@@ -18,7 +18,13 @@ Please cite:
 
 ## Prepare the Code-Switched Data
 
-1. Prepare the query and label data (e.g. `raw_data/Tatoeba.de-en.en` and `raw_data/Tatoeba.de-en.de`)
+1. Prepare the query and label data
+
+We use data originated from different sources in our experiments. AliExpress, LAZADA and DARAZ are Alibaba's in-house datasets, which are not publicly available due to the comercial policy and the data security policy. The publicly available datasets used in our experiments includes:
+- [Quora Duplicate Questions Dataset](https://quoradata.quora.com/First-Quora-DatasetRelease-Question-Pairs)
+- STS Dataset ([Conneau et al., 2017](https://aclanthology.org/D17-1070/))
+- [AskUbuntu Dataset](https://github.com/taolei87/askubuntu) ([Lei et al., 2016](https://aclanthology.org/N16-1153/))
+- Tatoeba Dataset ([Artetxe and Schwenk, 2019](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00288/43523/Massively-Multilingual-Sentence-Embeddings-for))
 
 Both the query and label files should contain a series of sentences. One sentence per line.
 
